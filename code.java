@@ -23,6 +23,8 @@ public class CodesCracker
             if(ch==vowels.charAt(k))
                count++;
          }
+         if(count==0)
+            strRes = strRes + ch;
       }
       
       System.out.println("\nString without Vowels = " +strRes);
